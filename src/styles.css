@@ -106,12 +106,18 @@ h2 {
     text-align: center;
 }
 
+.wrapperText {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 83px;
+}
+
 .textSection01 {
-    margin: 0 120px 21px 97px;
+    margin: 0 143px 21px 150px;
     font-size: 16px;
     line-height: 22px;
     font-weight: 400;
-    text-align: center;
+    text-align: left;
     color: #000000;
 }
 
