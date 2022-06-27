@@ -14,8 +14,8 @@ body {
 .wrapper {
     position: absolute;
     top: 45px;
-    left: 252px;
-    width: 820px;
+    padding-left: 152px;
+    width: 800px;
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr 1fr
 }
@@ -23,11 +23,6 @@ body {
 h3 {
     margin-top: 0;
 }
-
-/* 
-.wrapper a.navLinks:nth-of-type(2) {
-    text-decoration: underline;
-} */
 
 .siteName {
     font-size: 20px;
@@ -43,6 +38,10 @@ h3 {
     font-weight: 400;
     letter-spacing: 0.2em;
     color: #FFFFFF;
+}
+
+.underlineLink {
+    text-decoration: underline;
 }
 
 h1 {
@@ -137,6 +136,7 @@ h2 {
     width: 115px;
     height: 36px;
     letter-spacing: 0.1em;
+    cursor: pointer;
 }
 
 .sectionWithImage02 {
@@ -215,6 +215,12 @@ h2 {
     font-weight: 400;
 }
 
+.wrapperFooter {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+
 .logoWord {
     padding-left: 16px;
     color: white;
@@ -231,4 +237,15 @@ h2 {
 a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.4);
+}
+
+.markRights {
+    padding-top: 74px;
+    text-align: center;
+    margin: 0;
+}
+
+.email {
+    display: block;
+    padding-top: 15px;
 }
